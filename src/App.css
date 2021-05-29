@@ -1,0 +1,41 @@
+.App {
+  text-align: center;
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.app-container {
+  height: 80vh;
+  width: 80vw;
+  min-width: 200px;
+  min-height: 300px;
+}
+
+.app-row {
+  display: grid;
+   grid-auto-columns: 1fr;
+   grid-auto-flow: column;
+}
+
+.app-tile {
+  /* padding: 5px; */
+  border: 1px solid #282c34;
+  border-radius: 5px;
+  background-color: #bdc3c7;
+}
+
+.hidden-tile {
+  background-color: #649173;
+  border: 1px solid #282c34;
+  border-radius: 5px;
+}
